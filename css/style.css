@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-banner {
+    padding: 15px 0px 15px 0px;
+}
+
+header {
+    display: flex;
+    background-color: #FFC107;
+    justify-content: center;
+    position: relative;
+    padding: 2px;
+    box-shadow: 0px 0px 3px 4px rgb(184, 107, 19);
+}
+
+nav#cabeçalho {
+    background-color: #FFA000;
+    text-align: center;
+    padding: 13px;
+    word-spacing: 25px;
+}
+
+nav#cabeçalho > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+footer {
+    background-color: #FFC107;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding: 17px;
+}
+
+footer > p {
+    padding-top: 35px;
+    padding-left: 50px;
+}

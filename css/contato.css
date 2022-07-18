@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+article {
+    display: flex;
+}
+
+#contato {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1000px;
+}

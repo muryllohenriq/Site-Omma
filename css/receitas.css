@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+main > div > div > img {
+    width: 345px;
+    height: 342px;
+}
+
+.linha {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.linha div {
+    width: 345px;
+}
+
+h1 {
+    color: #FFA000;
+    margin-left: 65px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+}
+
+.nome {
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.botao {
+    background-color: #176902;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 10px;
+}
