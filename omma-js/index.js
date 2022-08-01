@@ -43,4 +43,33 @@ cadastrarReceita(
   "youtube.com",
   false
 );
-console.log(listaDeReceitas)
+console.log(listaDeReceitas);
+function exibirReceitas() {
+  for (let i = 0; i < listaDeReceitas.length; i++) {
+    const receita = listaDeReceitas[i];
+    console.log("Título:" + receita.titulo);
+  }
+  for (let i = 0; i < listaDeReceitas.length; i++) {
+    const receita = receita.ingredientes;
+    console.log("ingredientes:" +receita.ingredientes);
+  }
+  for (let i=0; i<listaDeReceitas.length; i++){
+    const receita = listaDeReceitas [i];
+    console.log("Vegano sim ou não: " +receita.vegano);
+  }
+}
+
+exibirReceitas();
+
+const deletarReceita = (id) => {
+  for (let i = 0; i < listaDeReceitas.length; i++) {
+    if (listaDeReceitas[i].id === id) {
+      listaDeReceitas.splice(i, 1);
+      console.log("Receita deletada");
+      console.log(listaDeReceitas);
+    } else {
+      console.log("Receita não encontrada");
+    }
+  }
+};
+deletarReceita(1);
