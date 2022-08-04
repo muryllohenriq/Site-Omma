@@ -45,12 +45,12 @@ cadastrarReceita(
 );
 console.log(listaDeReceitas);
 function exibirReceitas() {
-  for (let i = 0; i < listaDeReceitas.length; i++) {
-    const receita = listaDeReceitas[i];
-    console.log("Título:" + receita.titulo);
+  for (let i = 0; i<listaDeReceitas.length; i++) {
+    const receita = listaDeReceitas [i];
+    console.log("Título:" +receita.titulo);
   }
-  for (let i = 0; i < listaDeReceitas.length; i++) {
-    const receita = receita.ingredientes;
+  for (let i = 0; i<listaDeReceitas.length; i++) {
+    const receita = listaDeReceitas [i];
     console.log("ingredientes:" +receita.ingredientes);
   }
   for (let i=0; i<listaDeReceitas.length; i++){
