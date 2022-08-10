@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omma - Painel administrativo</title>
+    <link rel="stylesheet" href="../css/painel.css">
+</head>
+
+<body>
+    <header>
+        <h1>Painel de controle</h1>
+    </header>
+    <main>
+        <section class="painel-receitas">
+
+        </section>
+        <section class="formulario">
+            <h2>Adicionar nova receita</h2>
+            <form>
+                <label for="titulo">Titulo</label>
+                <input type="text" name="titulo" id="titulo">
+                <br>
+                <label for="dificuldade">Dificuldade</label>
+                <select name="dificuldade" id="dificuldade">
+                    <option value="simples" selected>simples</option>
+                    <option value="medio">medio</option>
+                    <option value="dificil">dificil</option>
+                    <option value="chef">chef</option>
+                </select>
+                <br>
+                <label for="ingredientes">Ingredientes</label>
+                <small>Adicione os ingredientes separados por virgula (Exemplo: açucar, sal, leite)</small>
+                <textarea name="ingredientes" id="ingredientes"></textarea>
+                <br>
+                <label for="preparo">Preparo</label>
+                <textarea name="preparo" id="preparo"></textarea>
+                <br>
+                <label for="link">link</label>
+                <input type="text" name="link" id="link">
+                <br>
+                <label for="vegano">Vegano</label>
+                <label for="vegano-true">
+                    <input type="radio" id="vegano-true" name="vegano" value="sim">
+                    sim
+                </label>
+                <label for="vegano-false">
+                    <input type="radio" id="vegano-false" name="vegano" value="não" checked>
+                    não
+                </label>
+                <br>
+                <button id="btnEnviar">enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../omma-js/painel.js"></script>
+</body>
+
+</html>
