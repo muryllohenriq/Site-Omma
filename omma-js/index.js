@@ -1,6 +1,5 @@
 const nomeEmpresa = "Omma";
 console.log(nomeEmpresa);
-
 const listaDeReceitas = [
   {
     id: 1,
@@ -12,7 +11,6 @@ const listaDeReceitas = [
     vegano: false,
   },
 ];
-
 const cadastrarReceita = (
   id,
   titulo,
@@ -60,7 +58,6 @@ function exibirReceitas() {
 }
 
 exibirReceitas();
-
 const deletarReceita = (id) => {
   for (let i = 0; i < listaDeReceitas.length; i++) {
     if (listaDeReceitas[i].id === id) {
