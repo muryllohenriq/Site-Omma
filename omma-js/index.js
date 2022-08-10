@@ -69,4 +69,22 @@ const deletarReceita = (id) => {
     }
   }
 };
-deletarReceita(1);
+// deletarReceita(1);
+
+const atualizarReceita = (id, receitaAtualizada) => {
+  let foiAtualizado = false;
+  listaDeReceitas.forEach((receita) => {
+    if(receita.id != id) {
+      return
+    }
+    if(receitaAtualizada.titulo){
+      receita.titulo = receitaAtualizada.titulo
+    }
+    if(receitaAtualizada.ingredientes){
+      receita.ingredientes = receitaAtualizada.ingredientes;
+    }
+    foiAtualizado = true;
+  });
+  console.log(foiAtualizado? "Receita atualizada" : "Não existe o id");
+};
+atualizarReceita(2);
