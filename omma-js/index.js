@@ -42,6 +42,7 @@ cadastrarReceita(
   false
 );
 console.log(listaDeReceitas);
+
 function exibirReceitas() {
   for (let i = 0; i<listaDeReceitas.length; i++) {
     const receita = listaDeReceitas [i];
@@ -56,8 +57,8 @@ function exibirReceitas() {
     console.log("Vegano sim ou não: " +receita.vegano);
   }
 }
-
 exibirReceitas();
+
 const deletarReceita = (id) => {
   for (let i = 0; i < listaDeReceitas.length; i++) {
     if (listaDeReceitas[i].id === id) {
@@ -69,7 +70,6 @@ const deletarReceita = (id) => {
     }
   }
 };
-// deletarReceita(1);
 
 const atualizarReceita = (id, receitaAtualizada) => {
   let foiAtualizado = false;
