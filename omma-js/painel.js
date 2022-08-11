@@ -34,7 +34,7 @@ const cadastrarReceita = (
 };
 
 const btnEnviar = document.querySelector("#btnEnviar");
-btnEnviar.onClick = (evento) => {
+btnEnviar.onclick = (evento) => {
   evento.preventDefault();
 
   let inputTitulo = document.querySelector("#titulo");
@@ -45,6 +45,7 @@ btnEnviar.onClick = (evento) => {
   let inputVegano = document.querySelector('input[name="vegano"]:checked');
 
   let novaReceita = {
+    
     id: listaDeReceitas.length,
     titulo: inputTitulo.value,
     dificuldade: inputDificuldade.value,
@@ -52,14 +53,17 @@ btnEnviar.onClick = (evento) => {
     preparo: inputPreparo.value,
     link: inputLink.value,
     vegano: inputVegano.value
+
   }
   console.log(novaReceita);
   listaDeReceitas.push(novaReceita);
   exibirReceitas();
 }
-function exibirReceitas() {
+function exibirReceitas() 
+{ 
   let htmlReceitas = "";
-  for (let i = 0; i < listaDeReceitas.length; i++) {
+  for (let i =0; i<listaDeReceitas.length; i++) {
+    
     htmlReceitas += `
         <article class="card">
         <h2> ${listaDeReceitas[i].titulo}</h2>
@@ -69,9 +73,10 @@ function exibirReceitas() {
         <br>Link: ${listaDeReceitas[i].link}<br>
         <br>Vegano? ${listaDeReceitas[i].vegano}<br>
         </article>`;
-  }
+  
+      }
 
   let painel = document.querySelector(".painel-receitas");
-  painel.innerHTML = htmlReceitas;
+  painel.innerHTML =htmlReceitas
 }
 exibirReceitas();
