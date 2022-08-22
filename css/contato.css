@@ -4,8 +4,44 @@ article {
     display: flex;
 }
 
+#primeira {
+    background-image: url('../img/image-1-contato.png');
+    height: 405px;
+}
+
+#titulo1 {
+    position: absolute;
+    width: 419px;
+    height: 170px;
+    left: 122px;
+    top: 214px;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#imagem-contato {
+width: 350px;
+height: 771px;
+left: 127px;
+top: 667px;
+border-radius: 20px;
+}
+
 #contato {
     border: 1px solid black;
     border-radius: 10px;
     width: 1000px;
+    box-sizing: border-box;
+
+position: absolute;
+width: 820px;
+height: 766px;
+left: 492px;
+top: 672px;
+
+background: #FFFFFF;
+border: 1px solid #FFA000;
+border-radius: 20px;
 }
