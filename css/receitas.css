@@ -43,4 +43,9 @@ p {
     padding-top: 9px;
     padding-bottom: 9px;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+a#risoto-abobora {
+    text-decoration: none;
 }

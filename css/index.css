@@ -62,6 +62,7 @@ p.nome {
     padding-top: 9px;
     padding-bottom: 9px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 #tres {
@@ -92,4 +93,9 @@ h1#titulo3 {
     position: absolute;
     left: 122px;
     top: 160px;
+}
+
+a#risoto-abobora {
+    text-decoration: none;
+    text-align: center;
 }
