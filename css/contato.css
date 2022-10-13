@@ -100,7 +100,5 @@ cursor: pointer;
 }
 
 footer {
-position: absolute;
-width: 97%;
-top: 1571px;
+display: none;
 }
