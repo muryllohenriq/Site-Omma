@@ -1,6 +1,6 @@
 # Site de receitas - Omma
 
-Esse é um site de receitas projetado e desenvolvido durante o [Gama Experience - 44](https://gama.academy).
+Esse é um site de receitas, projetado e desenvolvido durante o [Gama Experience - 44](https://gama.academy).
 
 ## Table of contents
 
