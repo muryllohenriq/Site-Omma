@@ -63,7 +63,7 @@ Preciso criar mais páginas e melhorar a interação com o JS.
 
 - Website - [muryllohenriq](https://github.com/muryllohenriq)
 - Frontend Mentor - [@muryllohenriq](https://www.frontendmentor.io/profile/muryllohenriq)
-- LinkedIn - [Muryllo Henrique](https://www.linkedin.com/in/muryllo-henrique-567a0b228/)
+- LinkedIn - [Muryllo Henrique](https://www.linkedin.com/in/muryllohenrique/)
 
 ## Acknowledgments
 
